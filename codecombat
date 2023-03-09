@@ -1,0 +1,12 @@
+// Você precisa de uma senha para abrir a Porta da Biblioteca!
+// A senha está nas Sugestões!
+// Clique no botão azul acima do editor de código.
+// Não se esqueça que letras maiúsculas e minúsculas geram comandos diferentes.
+
+public class AI {
+    public static void main(String[] args) {
+        hero.moveRight(); 
+        hero.say("Hush");  // ∆
+        hero.moveRight();
+    }
+}
