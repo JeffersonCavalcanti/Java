@@ -1,3 +1,22 @@
+// CodeCombat Nivel 14
+// Free the prisoner, defeat the guard and grab the gem.
+
+public class AI {
+    public static void main(String[] args) {
+        // Liberte Patrick que está atrás da "Weak Door".
+        hero.moveRight();
+        hero.say("Weak Door");
+        // Mate o guarda, chamado "Two".
+        hero.moveRight(2);
+        hero.moveDown();
+        hero.attack("Two");
+        hero.attack("Two");
+        hero.attack("Two");
+        // Pegue o diamante.
+    
+    }
+}
+
 // CodeCombat Nivel 13
 // Derrote os ogros.
 // Lembre-se que cada um deles recebem dois golpes.
