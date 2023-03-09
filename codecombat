@@ -5,7 +5,7 @@ public class AI {
     public static void main(String[] args) {
         // Liberte Patrick que está atrás da "Weak Door".
         hero.moveRight();
-        hero.say("Weak Door");
+        hero.attack("Weak Door");
         // Mate o guarda, chamado "Two".
         hero.moveRight(2);
         hero.moveDown();
@@ -13,7 +13,8 @@ public class AI {
         hero.attack("Two");
         hero.attack("Two");
         // Pegue o diamante.
-    
+        hero.moveDown();
+        hero.moveRight(1);
     }
 }
 
