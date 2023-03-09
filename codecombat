@@ -1,4 +1,22 @@
 // CodeCombat Nivel 13
+// Derrote os ogros.
+// Lembre-se que cada um deles recebem dois golpes.
+
+public class AI {
+    public static void main(String[] args) {
+        hero.moveRight(2);
+        hero.shield();
+        hero.attack("Rig");
+        hero.attack("Rig");
+        hero.attack("Gurt");
+        hero.attack("Gurt");
+        hero.attack("Ack");
+        hero.attack("Ack");
+        hero.moveRight(2);
+    }
+
+
+// CodeCombat Nivel 12
 // Você precisa de uma senha para abrir a Porta da Biblioteca!
 // A senha está nas Sugestões!
 // Clique no botão azul acima do editor de código.
