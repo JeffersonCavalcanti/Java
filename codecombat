@@ -1,3 +1,17 @@
+
+// CodeCombat Nivel 15
+public class AI {
+    public static void main(String[] args) {
+        // O ogro aparenta ser grande e lento. Movimentação irá te ajudar a evitar seus ataques mortais.
+        hero.moveRight();
+        hero.moveUp();
+        hero.moveRight();
+        hero.attack("Grumus");
+        
+    }
+}
+
+
 // CodeCombat Nivel 14
 // Free the prisoner, defeat the guard and grab the gem.
 
