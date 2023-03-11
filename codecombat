@@ -25,7 +25,6 @@ public class AI {
         hero.moveDown();
         hero.attack("Two");
         hero.attack("Two");
-        hero.attack("Two");
         // Pegue o diamante.
         hero.moveDown();
         hero.moveRight(1);
